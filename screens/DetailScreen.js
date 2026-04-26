@@ -115,9 +115,7 @@ const { item } = route.params;
 
     Alert.alert("Added 💪", "Added to Home");
 
-    navigation.navigate("Exercises", {
-      screen: "ExercisesMain"
-    });
+   
   }}
 >
   <Ionicons name="add" size={22} color="white" />
